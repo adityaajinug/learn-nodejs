@@ -1,0 +1,8 @@
+hello world
+error
+┌───────────┬────────┐
+│  (index)  │ Values │
+├───────────┼────────┤
+│ firstName │ 'Adit' │
+│ lastName  │ 'Nugr' │
+└───────────┴────────┘
