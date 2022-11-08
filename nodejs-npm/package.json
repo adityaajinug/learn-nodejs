@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-npm",
+  "version": "1.0.0",
+  "description": "learn nodejs npm",
+  "exports": {
+    "." : "./index.js",
+    "./write": "./write.js"
+  },
+  "homepage": "https://www.adit.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adityaajinug/learn-nodejs"
+  },
+  "scripts": {
+    "run": "node index.js",
+    "prestart": "echo 'Before start'",
+    "start": "node index.js",
+    "poststart": "echo 'after start'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "keywords": [
+    "learn",
+    "nodejs",
+    "npm"
+  ],
+  "type": "module",
+  "author": "Aditya Ajie Nugroho",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "4.17.21" 
+  },
+  "devDependencies": {
+    "moment": "^2.29.3"
+  }
+}
